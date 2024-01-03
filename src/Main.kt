@@ -1,3 +1,3 @@
 fun main() {
-    println(caesarCipherDecrypt("WtAAD XpC", 15))
+    println(isPalindrome(121))
 }
