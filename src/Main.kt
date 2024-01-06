@@ -1,3 +1,3 @@
 fun main() {
-    println(isPalindrome(121))
+    print(factorial(4))
 }
