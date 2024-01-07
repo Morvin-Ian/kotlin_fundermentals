@@ -1,3 +1,5 @@
+package armateur
+
 fun factorial(value:Int):Int{
     var result:Int = 0
     if (value == 1){

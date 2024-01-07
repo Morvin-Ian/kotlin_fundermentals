@@ -1,4 +1,4 @@
-// In cryptography, a Caesar cipher is a simple encryption technique
+package armateur// In cryptography, a Caesar cipher is a simple encryption technique
 // that shifts every letter in a message by a certain number of letters.
 // The number of letters to shift is known as the key or shift parameter.
 

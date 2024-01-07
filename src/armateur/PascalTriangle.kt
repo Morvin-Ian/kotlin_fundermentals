@@ -1,3 +1,5 @@
+package armateur
+
 fun pascal() {
     val rows = 6
     var coef = 1

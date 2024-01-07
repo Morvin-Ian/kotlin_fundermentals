@@ -1,6 +1,8 @@
-fun CountUpDown(value:Int):List<Int>{
-    var result = mutableListOf<Int>()
-    var count = 0
+package armateur
+
+fun countUpDown(value:Int):List<Int>{
+    val result = mutableListOf<Int>()
+    val count = 0
 
     for (count in count..value){
         result.add(count)

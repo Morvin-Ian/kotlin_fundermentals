@@ -1,3 +1,5 @@
+package armateur
+
 fun capitalize(sentence:String):String {
     val words = sentence.split(" ")
     val capitalized = mutableListOf<String>()

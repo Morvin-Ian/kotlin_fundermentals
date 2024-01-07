@@ -1,3 +1,5 @@
+package armateur
+
 fun <T>isPalindrome(values:T):Boolean{
     if (values is String){
         return  values == values.reversed()
