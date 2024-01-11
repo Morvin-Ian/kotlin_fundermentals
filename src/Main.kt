@@ -1,8 +1,7 @@
-import armateur.smallestElements
-import intermediate.bubbleSort
-import intermediate.selectionSort
+
+import intermediate.hasAverage
 
 fun main() {
-    val list = mutableListOf(5, 45, 39, 34)
-    print(selectionSort(list))
+    val list = mutableListOf(-3, 3, -2, 1, 2)
+    print(hasAverage(list, 0.0))
 }
