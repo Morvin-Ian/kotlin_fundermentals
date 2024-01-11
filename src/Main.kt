@@ -1,6 +1,8 @@
 import armateur.smallestElements
+import intermediate.bubbleSort
+import intermediate.selectionSort
 
 fun main() {
-    val list = listOf(5, 1, 3, 34, 56, 78, 34, 32, 56)
-    print(smallestElements(list, 2))
+    val list = mutableListOf(5, 45, 39, 34)
+    print(selectionSort(list))
 }
