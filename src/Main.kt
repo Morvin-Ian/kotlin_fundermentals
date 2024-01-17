@@ -1,7 +1,8 @@
 
-import intermediate.hasAverage
+import intermediate.binarySearch
+import intermediate.surroundedLetter
 
 fun main() {
-    val list = mutableListOf(-3, 3, -2, 1, 2)
-    print(hasAverage(list, 0.0))
+    val list = mutableListOf(-3, 3, -2, 1)
+    print(surroundedLetter("+ab+"))
 }
