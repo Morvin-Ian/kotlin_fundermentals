@@ -1,0 +1,4 @@
+package intermediate
+
+class RemoveDuplicates {
+}
