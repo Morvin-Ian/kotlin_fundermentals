@@ -1,10 +1,8 @@
 
-import expert.chunk
-import expert.getSubtraction
-import expert.isSubstring
-import expert.maxChunkSum
+import expert.*
+import intermediate.*
 
 fun main() {
-    val list = mutableListOf(-3, 3, -2, 1, 4, 5,6)
-    print(getSubtraction(list, listOf(-2, 1)))
+    val list = mutableListOf(32, 10, 1, 19, 3)
+    print(equalDigitFrequency("123", "312"))
 }

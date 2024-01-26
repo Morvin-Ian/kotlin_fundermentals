@@ -12,5 +12,5 @@ fun getDuplicatedParams(vararg strings:String):List<Char>?{
     }
     val strGroup = strList.joinToString("").groupBy { it }
     val repeatedArg = strGroup.filter { it.value.size > 1 }
-    return  repeatedArg.keys.toList()
+    return repeatedArg.keys.toList()
 }

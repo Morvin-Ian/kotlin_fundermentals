@@ -1,27 +1,19 @@
 package intermediate
 
-import kotlin.math.max
 
 fun bubbleSort(list:List<Int>):List<Int> {
     val sorted = list.toMutableList()
 
-    (0..sorted.lastIndex).forEach { i ->
-        var swapped = false
-        (0 until (sorted.size - i - 1)).forEach { j ->
-            val element = sorted[j]
-            val nextElement = sorted[j + 1]
+    for (index in 0..sorted.lastIndex){
+        for (idx in (index+1) .. (sorted.lastIndex)){
+            val element = sorted[index]
+            val nextElement = sorted[idx]
 
             if (element > nextElement) {
-                sorted[j] = nextElement
-                sorted[j + 1] = element
-                swapped = true
+                sorted[index] = nextElement
+                sorted[idx] = element
             }
         }
-
-        if (!swapped) {
-            return sorted
-        }
     }
-
     return sorted
 }
