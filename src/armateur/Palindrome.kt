@@ -11,7 +11,7 @@ fun <T>isPalindrome(values:T):Boolean{
         while (temp > 0) {
             val remainder = temp % 10
             reverseNumber = (reverseNumber * 10) + remainder
-            temp = temp / 10
+            temp /= 10
         }
         return values.toInt() == reverseNumber
     }

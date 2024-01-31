@@ -6,7 +6,6 @@ fun binarySearch(list:List<Int>, key:Int):List<Int> {
 
     while(leftIndex<= rightIndex){
         val midIndex = (leftIndex+rightIndex)/2
-        println("$midIndex, $rightIndex, $leftIndex")
 
         if(list[midIndex] == key){
             return listOf(midIndex, list[midIndex])
