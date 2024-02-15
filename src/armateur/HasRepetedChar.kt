@@ -1,6 +1,6 @@
 package armateur
 
-fun hasRepetedChar(string:String):Boolean {
+fun hasRepeatedChar(string:String):Boolean {
     val strGroup = string.groupBy { it }
     for(group in strGroup){
         if (group.value.size > 1){
