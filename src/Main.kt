@@ -1,10 +1,9 @@
 
-import armateur.caesarCipherDecrypt
-import armateur.caesarCipherEncrypt
+import armateur.*
 import expert.*
 import intermediate.*
 
 fun main() {
-    val list = mutableListOf( 10, 1, 19, 3, 2)
-    print(caesarCipherDecrypt("pmwx", 5))
+    val list = mutableListOf( 10, 1, 19, 32, 2)
+    println(maxChunkSum(list, 2))
 }
