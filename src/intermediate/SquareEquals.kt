@@ -8,8 +8,8 @@ package intermediate
 fun squareEquals(list1:List<Int>, list2: List<Int>):Boolean{
     val squareList = mutableListOf<Int>()
 
-    for (value in list1){
-        squareList.add(value*value)
+    list1.forEach{
+        squareList.add(it*it)
     }
 
     if (squareList.size == list2.size){
